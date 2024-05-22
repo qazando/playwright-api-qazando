@@ -79,7 +79,7 @@ const responseBody = await response.json()
   expect(responseBody.booking).toHaveProperty("depositpaid", true);
 });
 
-test('Gerando um token @regressivo', async ({ request }) => {
+test('Gerando um token herbertao @regressivo', async ({ request }) => {
 
   const response = await request.post('/auth', {
     data: {
